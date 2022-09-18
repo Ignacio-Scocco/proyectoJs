@@ -72,8 +72,8 @@ function cards () {
 
         dibujarCarrito();
         swal ({
-            title: "¡Producto agregado!",
-            text: `${producto.modelo} agregado al carrito de compra`,
+            title: `${producto.modelo} agregado al carrito de compra`,
+            text: "Agrega desde el carrito la cantidad de productos que quieras!",
             icon: "success",
             buttons: {
                 cerrar: {
