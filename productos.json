@@ -1,0 +1,208 @@
+
+[
+        {
+            "marca": "WILSON",
+            "modelo": "Clash 98 V2",
+            "precio":30000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/clash98-v2.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "WILSON",
+            "modelo": "Clash 100 V2",
+            "precio":31000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/clash100-v2.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "WILSON",
+            "modelo": "Clash 100 PRO V2",
+            "precio":40000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/clash100pro-v2.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "WILSON",
+            "modelo": "Clash 100 SILVER",
+            "precio":33000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/clash100-silver.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Pure Aero",
+            "precio":31000,
+            "imagen": "../recursos/pure-aero.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Pure Drive",
+            "precio":32000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/pure-drive.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Pure Strike",
+            "precio":33000,
+            "imagen": "../recursos/pure-strike.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Pure Aero Rafa",
+            "precio":40000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/pure-aero-rafa.png",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "HEAD",
+            "modelo": "Boom MP",
+            "precio":27000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/boom-mp.png",
+            "tipo": "Tenis"
+        }, 
+        {
+            "marca": "HEAD",
+            "modelo": "Boom MP PRO",
+            "precio":30000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/boom-pro.png",
+            "tipo": "Tenis"
+        }, 
+        {
+            "marca": "HEAD",
+            "modelo": "Boom SPEED",
+            "precio":31000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/boom-speed.jpeg",
+            "tipo": "Tenis"
+        },
+        {
+            "marca": "HEAD",
+            "modelo": "Boom SPEED PRO",
+            "precio":35000,
+            "categoria": "Raquetas",
+            "imagen": "../recursos/boom-speed.jpeg",
+            "tipo": "Tenis"
+        },{
+            "marca": "TOWER",
+            "modelo": "Blackfire 2022",
+            "precio":12000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/blackfire.png",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "TOWER",
+            "modelo": "Black Edition ",
+            "precio":15000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/black-edition.png",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "TOWER",
+            "modelo": "Aerofire",
+            "precio":20000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/aerofire.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "TOWER",
+            "modelo": "Proton",
+            "precio":19000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/proton.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Counter Viper",
+            "precio":22000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/counter-viper.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "BABOLAT",
+            "modelo": "Counter Veron",
+            "precio":23000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/counter-veron.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "HEAD",
+            "modelo": "Alpha Elite",
+            "precio":23000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/alpha-elite.jpeg",
+            "tipo": "Padel"
+        }, 
+        {
+            "marca": "HEAD",
+            "modelo": "Alpha Motion",
+            "precio":20000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/alpha-motion.jpeg",
+            "tipo": "Padel"
+        }, 
+        {
+            "marca": "HEAD",
+            "modelo": "Delta Elite",
+            "precio":26000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/delta-elite-2022.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "HEAD",
+            "modelo": "Gravity PRO",
+            "precio":19000,
+            "categoria": "Paletas",
+            "imagen": "../recursos/gravity-pro.jpeg",
+            "tipo": "Padel"
+        },
+        {
+            "marca": "HEAD",
+            "modelo": "Padel PRO X3",
+            "precio":2500,
+            "categoria": "Pelotas",
+            "imagen": "../recursos/head-padel-pro.jpeg",
+            "tipo": "Pelotas"
+            },
+            {
+            "marca": "HEAD",
+            "modelo": "Tour Tennis Balls X4",
+            "precio":3000,
+            "categoria": "Pelotas",
+            "imagen": "../recursos/head-tour-4.jpeg",
+            "tipo": "Pelotas"
+            },
+            {
+            "marca": "HEAD",
+            "modelo": "Championship X4",
+            "precio":3000,
+            "categoria": "Pelotas",
+            "imagen": "../recursos/head-championship-4.jpeg",
+            "tipo": "Pelotas"
+            },
+            {
+            "marca": "BABOLAT",
+            "modelo": "Tennis Gold Balls X3",
+            "precio":2500,
+            "categoria": "Pelotas",
+            "imagen": "../recursos/pelota-babolat.jpeg",
+            "tipo": "Pelotas"
+            }
+    ]

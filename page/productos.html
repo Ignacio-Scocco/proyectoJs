@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../recursos/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Raketa</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="header_logo"src="../recursos/logo-tenis (1).png" alt="LOGO DE LA PAGINA TENNIS">
+                </a>
+                <h1>RAKETA TENNIS</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="link__nav" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link__nav" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link__nav" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-light" style="height:40px; margin-top:0.5rem;"  type="submit" ><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                    <button id="toggleMyModal" type="button" class="btn boton__footer" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                        Carrito <i class="bi bi-cart-check-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- modal de carrito -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" >Carrito</h5>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal" aria-label="Close"> ╳ </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <table class="table">
+                                <thead>
+                                    <tr>                                
+                                        <th scope="col">Marca</th>
+                                        <th scope="col">Modelo</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Total c/ IVA</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                        <tbody id="items"></tbody>
+                                        <tfoot>
+                                            <tr id="footer">
+                                            <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                                            </tr>
+                                        </tfoot>
+                                        </table>
+                            <div class="row" id="cards"></div>
+                        </div>       
+                    </div>
+                    <div class="modal-footer">
+                        <button id="botonVaciar" type="button" class="btn btn-outline-danger">Vaciar Carrito</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button id="botonCompra" type="button" class="btn btn-primary">Terminar compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Productos</h2>
+        <hr>
+        <section id="TARJETAS" class="row justify-content-center m-3 p-3">
+
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <section class="footer__fondo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="footer__titulo">Contáctenos</h3>
+                        <div>
+                            <a  class="footer__contacto" href="contacto.html"><button class="boton__footer"> Contacto</button></a>
+                            <p>Venta unicamente online por este sitio web!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Seguinos</h3>
+                    <div class="footer__direccion">
+                        <h4>Redes sociales:</h4>
+                        <a href="https://www.facebook.com/nachhinn.cai" target="_blank">
+                        <img class="footer__redes" src="../recursos/facebook.png" alt="logo facebook"></a>
+                        <a href="https://www.instagram.com/nacho_scocco/" target="_blank"><img class="footer__redes" src="../recursos/instagram.png" alt="logo instagram"></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer__legal">
+            <p> Raketa Tennis, todos los derechos reservados 2022.</p>
+            <p>Desarrollado por <a href="https://www.linkedin.com/in/ignacio-scocco-b351861a1/">Ignacio Scocco</a> </p>
+        </section>
+    </footer>
+    <script src="../js/code.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

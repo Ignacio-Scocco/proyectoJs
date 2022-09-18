@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../recursos/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/styles.css">
+        <title>Raketa</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="header_logo"src="../recursos/logo-tenis (1).png" alt="LOGO DE LA PAGINA TENNIS">
+                </a>
+                <h1>RAKETA TENNIS</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="link__nav" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link__nav" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link__nav" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav con bootstrap -->
+    </header>
+    <main>
+        </div>
+        <section class="contacto__fondo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2 class="contacto__tituloConsulta">Envianos tu consulta!</h2>
+                        <form id="formulario">
+                        <div class="contacto__forms">
+                            <input id="nombre" class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+                            <input id="apellido" class="form-control" type="text" placeholder="Apellido" aria-label="default input example">
+                            <input  class="form-control" type="number" placeholder="Telefono" aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input id= "mail" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>¿Que producto te interesa?</option>
+                            <option value="1">Raquetas de tenis</option>
+                            <option value="2">Paletas de padel</option>
+                            <option value="3">Pelotas</option>
+                        </select>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea id="textarea" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="contacto__boton" value="enviar">Enviar</button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Contacto</h2>
+                        <div>
+                            <button type="button" class="btn btn__fondo" data-bs-toggle="tooltip" data-bs-placement="left" title="Todavia no disponible!">
+                                <img class="footer__redes" src="../recursos/facebook.png" alt="foto facebook"> <a>Raketa tenis</a>
+                            </button>
+                        </div>
+                        <div> 
+                            <button type="button" class="btn btn__fondo" data-bs-toggle="tooltip" data-bs-placement="left" title="Todavia no disponible!">
+                                <img class="footer__redes" src="../recursos/instagram.png" alt="foto instagram"> <a>Raketa tenis</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer__fondo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="footer__titulo">Contáctenos</h3>
+                        <div>
+                            <a  class="footer__contacto" href="contacto.html"><button class="boton__footer"> Contacto</button></a>
+                            <p>Venta unicamente online por este sitio web!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Seguinos</h3>
+                    <div class="footer__direccion">
+                        <h4>Redes sociales:</h4>
+                        <a href="https://www.facebook.com/nachhinn.cai" target="_blank">
+                        <img class="footer__redes" src="../recursos/facebook.png" alt="logo facebook"></a>
+                        <a href="https://www.instagram.com/nacho_scocco/" target="_blank"><img class="footer__redes" src="../recursos/instagram.png" alt="logo instagram"></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer__legal">
+            <p> Raketa Tennis, todos los derechos reservados 2022.</p>
+            <p>Desarrollado por <a href="https://www.linkedin.com/in/ignacio-scocco-b351861a1/">Ignacio Scocco</a> </p>
+        </section>
+    </footer>
+    <script src="../js/code-contacto.js"></script>
+    <script src="../js/code.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+</body>
+</html>
