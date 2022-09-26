@@ -1,6 +1,7 @@
 // DECLARACION DE CONSTANTES O VARIABLES
 const campoNombre= document.getElementById("nombre");
 const campoApellido= document.getElementById("apellido")
+const campoTelefono= document.getElementById ("telefono")
 const formulario=document.getElementById("formulario");
 const campoMail = document.getElementById("mail")
 const campoText = document.getElementById("textarea")
@@ -47,5 +48,7 @@ function validarFormulario (e) {
     } else if ((campoText.value=="") || (!isNaN(campoText.value))) {
         e.preventDefault();
         swal ("Pone tu duda en la casilla! Con gusto la responderemos!")
+    } else if (campoTelefono.value <= 10){
+        e.preventDefault();
     }
 }
